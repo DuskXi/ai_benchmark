@@ -1,0 +1,4601 @@
+{
+    "system_information": {
+        "driver_version": "536.67",
+        "cuda_version": 12020,
+        "device_count": 1,
+        "devices": [
+            {
+                "name": "NVIDIA GeForce RTX 4090",
+                "memory": {
+                    "total": "23.99GB",
+                    "free": "22.19GB",
+                    "used": "1.80GB"
+                },
+                "temperature": 42,
+                "power_usage": 28459,
+                "utilization": {
+                    "gpu": 4,
+                    "memory": 7
+                }
+            }
+        ]
+    },
+    "vgg19": {
+        "shape": [
+            3,
+            224,
+            224
+        ],
+        "train_batch_size": 128,
+        "pred_batch_size": 480,
+        "prediction": {
+            "mean": 0.2984872500101725,
+            "min": 0.0009996891021728516,
+            "max": 0.43477797508239746,
+            "avg_tflops": 31.570574846593445,
+            "sample_size": 30,
+            "durations": [
+                0.0019998550415039062,
+                0.0009999275207519531,
+                0.0009996891021728516,
+                0.0020008087158203125,
+                0.0009999275207519531,
+                0.0010001659393310547,
+                0.0009999275207519531,
+                0.0009999275207519531,
+                0.10763335227966309,
+                0.4303016662597656,
+                0.4187602996826172,
+                0.41658973693847656,
+                0.41785216331481934,
+                0.4200315475463867,
+                0.430300235748291,
+                0.41974520683288574,
+                0.41702818870544434,
+                0.4173617362976074,
+                0.43477797508239746,
+                0.4154937267303467,
+                0.4190840721130371,
+                0.41818904876708984,
+                0.41907644271850586,
+                0.41985011100769043,
+                0.41878652572631836,
+                0.434612512588501,
+                0.4171149730682373,
+                0.41401004791259766,
+                0.41500425338745117,
+                0.42301344871520996
+            ],
+            "tflops": [
+                4712.048559336341,
+                9424.097118672682,
+                9426.344697284338,
+                4709.802587668402,
+                9424.097118672682,
+                9421.850611612212,
+                9424.097118672682,
+                9424.097118672682,
+                87.55105984913673,
+                21.8995528163055,
+                22.50312189178894,
+                22.620370190712794,
+                22.552028910043443,
+                22.435014994104254,
+                21.899625620266526,
+                22.450319655351702,
+                22.59658776653094,
+                22.57852900171103,
+                21.674083341995672,
+                22.68003933863422,
+                22.48573662006958,
+                22.53386140785424,
+                22.48614597869372,
+                22.444710195699795,
+                22.501712658631014,
+                21.682334940324786,
+                22.591886351819817,
+                22.761317303075195,
+                22.706789123923095,
+                22.276866363991726
+            ],
+            "gpu_summary": {
+                "memory_allocated": "834.55MB",
+                "memory_cached": "18.06GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 875086848,
+                            "memory_cached": 19390267392
+                        }
+                    ]
+                }
+            ]
+        },
+        "training": {
+            "mean": 0.39775619506835935,
+            "min": 0.38957738876342773,
+            "max": 0.434643030166626,
+            "avg_tflops": 6.31771534693036,
+            "sample_size": 30,
+            "durations": [
+                0.434643030166626,
+                0.38957738876342773,
+                0.39603090286254883,
+                0.40049099922180176,
+                0.3960304260253906,
+                0.3953361511230469,
+                0.39703917503356934,
+                0.397080659866333,
+                0.39764928817749023,
+                0.3960847854614258,
+                0.3965013027191162,
+                0.3961019515991211,
+                0.39656734466552734,
+                0.39643239974975586,
+                0.3956468105316162,
+                0.3954586982727051,
+                0.39708495140075684,
+                0.39603543281555176,
+                0.3970057964324951,
+                0.39705681800842285,
+                0.39573240280151367,
+                0.39803385734558105,
+                0.39702582359313965,
+                0.39693117141723633,
+                0.39703798294067383,
+                0.39436769485473633,
+                0.3989088535308838,
+                0.3963601589202881,
+                0.39640188217163086,
+                0.39803171157836914
+            ],
+            "tflops": [
+                23.12851384849353,
+                25.80398049863337,
+                25.38349222168905,
+                25.100807163939773,
+                25.38352278447287,
+                25.42810039962966,
+                25.3190314066869,
+                25.31638621166784,
+                25.280184426918964,
+                25.380039101095477,
+                25.353377841185438,
+                25.37893918920622,
+                25.349155641745035,
+                25.357784451285106,
+                25.408134413753075,
+                25.420220585027508,
+                25.316112602349403,
+                25.38320187891341,
+                25.321160125855496,
+                25.317906371139937,
+                25.402638932759004,
+                25.255759420566296,
+                25.319882851402774,
+                25.325920628675206,
+                25.31910742620835,
+                25.490544670660334,
+                25.200361569768262,
+                25.36240617559568,
+                25.35973665737411,
+                25.255895572985565
+            ],
+            "gpu_summary": {
+                "memory_allocated": "2.23GB",
+                "memory_cached": "18.07GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398806528,
+                            "memory_cached": 19396558848
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19396558848
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19396558848
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2398413312,
+                            "memory_cached": 19398656000
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "resnet50": {
+        "shape": [
+            3,
+            224,
+            224
+        ],
+        "train_batch_size": 200,
+        "pred_batch_size": 1300,
+        "prediction": {
+            "mean": 0.48895546595255535,
+            "min": 0.004000186920166016,
+            "max": 0.5763704776763916,
+            "avg_tflops": 10.990500656600576,
+            "sample_size": 30,
+            "durations": [
+                0.004000186920166016,
+                0.004000186920166016,
+                0.004999876022338867,
+                0.005000114440917969,
+                0.44376087188720703,
+                0.5755958557128906,
+                0.5664682388305664,
+                0.5550556182861328,
+                0.5708920955657959,
+                0.5716228485107422,
+                0.5713498592376709,
+                0.5598218441009521,
+                0.5763704776763916,
+                0.569446325302124,
+                0.5705091953277588,
+                0.5592739582061768,
+                0.5706803798675537,
+                0.571709394454956,
+                0.5679488182067871,
+                0.5722286701202393,
+                0.5678369998931885,
+                0.571784496307373,
+                0.5603418350219727,
+                0.5710256099700928,
+                0.5737159252166748,
+                0.5587232112884521,
+                0.5727851390838623,
+                0.5748348236083984,
+                0.5714540481567383,
+                0.555427074432373
+            ],
+            "tflops": [
+                1343.4035650956466,
+                1343.4035650956466,
+                1074.7997241511973,
+                1074.7484748795898,
+                12.109822451777369,
+                9.33617800799543,
+                9.486613725588507,
+                9.681670075141472,
+                9.413101725071366,
+                9.40106817563471,
+                9.405559978206929,
+                9.599242019986159,
+                9.323630508044872,
+                9.437000698439586,
+                9.419419377653856,
+                9.608645800058726,
+                9.41659387492381,
+                9.399645032461326,
+                9.461883179134293,
+                9.391115213557578,
+                9.463746410696798,
+                9.398410422641438,
+                9.590334031349409,
+                9.410900799845832,
+                9.366770440563345,
+                9.618117273502055,
+                9.381991610667827,
+                9.348538308564448,
+                9.403845133189183,
+                9.675195209185475
+            ],
+            "gpu_summary": {
+                "memory_allocated": "2.99GB",
+                "memory_cached": "18.26GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3212169216,
+                            "memory_cached": 19606274048
+                        }
+                    ]
+                }
+            ]
+        },
+        "training": {
+            "mean": 0.3466749429702759,
+            "min": 0.3440873622894287,
+            "max": 0.36803698539733887,
+            "avg_tflops": 2.384794560912024,
+            "sample_size": 30,
+            "durations": [
+                0.36803698539733887,
+                0.34721922874450684,
+                0.3471412658691406,
+                0.3457298278808594,
+                0.34529972076416016,
+                0.3464024066925049,
+                0.3457458019256592,
+                0.344602108001709,
+                0.3464806079864502,
+                0.34574127197265625,
+                0.34603166580200195,
+                0.34652233123779297,
+                0.34623026847839355,
+                0.3452763557434082,
+                0.3460264205932617,
+                0.3491847515106201,
+                0.34574222564697266,
+                0.3450899124145508,
+                0.34632277488708496,
+                0.34553980827331543,
+                0.3440873622894287,
+                0.34615445137023926,
+                0.34707093238830566,
+                0.344527006149292,
+                0.3460228443145752,
+                0.34552502632141113,
+                0.34581780433654785,
+                0.3463127613067627,
+                0.3455390930175781,
+                0.34482526779174805
+            ],
+            "tflops": [
+                8.985979953219976,
+                9.524740276574677,
+                9.526879394599781,
+                9.565772768566767,
+                9.577687944563385,
+                9.547199756495102,
+                9.56533081357585,
+                9.597077023126042,
+                9.545044936406176,
+                9.565456139947202,
+                9.557428697049803,
+                9.54389565893382,
+                9.551946418082691,
+                9.578336071415567,
+                9.557573572427959,
+                9.4711265555461,
+                9.565429755175055,
+                9.583511003506668,
+                9.549394994026224,
+                9.571033188187942,
+                9.61143399984035,
+                9.554038550516053,
+                9.528810004532183,
+                9.599169045665235,
+                9.557672353613142,
+                9.571442647826128,
+                9.563339224736616,
+                9.549671113316316,
+                9.571052999944522,
+                9.590866104456465
+            ],
+            "gpu_summary": {
+                "memory_allocated": "1.59GB",
+                "memory_cached": "18.34GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1700876288,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1701656064,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1702409728,
+                            "memory_cached": 19694354432
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "mobilenet_v2": {
+        "shape": [
+            3,
+            224,
+            224
+        ],
+        "train_batch_size": 220,
+        "pred_batch_size": 900,
+        "prediction": {
+            "mean": 0.1388682206471761,
+            "min": 0.004000186920166016,
+            "max": 0.20720577239990234,
+            "avg_tflops": 2.122429787221397,
+            "sample_size": 30,
+            "durations": [
+                0.004000186920166016,
+                0.004999637603759766,
+                0.004000425338745117,
+                0.0040018558502197266,
+                0.004001617431640625,
+                0.20720577239990234,
+                0.16895842552185059,
+                0.15592622756958008,
+                0.1657555103302002,
+                0.16799163818359375,
+                0.1700289249420166,
+                0.1544172763824463,
+                0.1681668758392334,
+                0.16764020919799805,
+                0.16411042213439941,
+                0.15377259254455566,
+                0.16631174087524414,
+                0.1690387725830078,
+                0.16743779182434082,
+                0.16899895668029785,
+                0.15445756912231445,
+                0.16625595092773438,
+                0.16558170318603516,
+                0.16592812538146973,
+                0.15434980392456055,
+                0.1692361831665039,
+                0.16791343688964844,
+                0.16377782821655273,
+                0.16841959953308105,
+                0.15336155891418457
+            ],
+            "tflops": [
+                73.68106888059316,
+                58.95188238810644,
+                73.67667761359986,
+                73.65034099961824,
+                73.65472912765682,
+                1.4224412987451063,
+                1.744441255827653,
+                1.89024035657168,
+                1.7781493201212724,
+                1.754480468116445,
+                1.7334582812925023,
+                1.9087116086027858,
+                1.7526522183938764,
+                1.7581584359149067,
+                1.795973979998797,
+                1.916713785745659,
+                1.7722022898016119,
+                1.7436120926355316,
+                1.760283892833525,
+                1.7440228850499229,
+                1.908213690496436,
+                1.7727969817339788,
+                1.7800158008331057,
+                1.7762995111431261,
+                1.909545982604909,
+                1.741578204408099,
+                1.7552975715320498,
+                1.7996211771124913,
+                1.7500222587936234,
+                1.9218508867983304
+            ],
+            "gpu_summary": {
+                "memory_allocated": "1.99GB",
+                "memory_cached": "18.61GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2141187072,
+                            "memory_cached": 19985858560
+                        }
+                    ]
+                }
+            ]
+        },
+        "training": {
+            "mean": 0.2067604700724284,
+            "min": 0.2050178050994873,
+            "max": 0.21097254753112793,
+            "avg_tflops": 0.3484567353457933,
+            "sample_size": 30,
+            "durations": [
+                0.20888471603393555,
+                0.20601701736450195,
+                0.20702219009399414,
+                0.20601987838745117,
+                0.20589160919189453,
+                0.20659518241882324,
+                0.20567536354064941,
+                0.20679044723510742,
+                0.2069687843322754,
+                0.20664262771606445,
+                0.20601487159729004,
+                0.20601415634155273,
+                0.20696806907653809,
+                0.2050178050994873,
+                0.2062089443206787,
+                0.2065427303314209,
+                0.2061901092529297,
+                0.21097254753112793,
+                0.20594358444213867,
+                0.20614409446716309,
+                0.2067108154296875,
+                0.2098863124847412,
+                0.20601344108581543,
+                0.206282377243042,
+                0.20802998542785645,
+                0.2055222988128662,
+                0.20817780494689941,
+                0.20601677894592285,
+                0.2066206932067871,
+                0.20702886581420898
+            ],
+            "tflops": [
+                1.3797699189115242,
+                1.3989759263142352,
+                1.392183357605979,
+                1.3989564985664764,
+                1.3998280397885503,
+                1.3950608350572091,
+                1.4012998092843434,
+                1.3937435290534508,
+                1.3925425934825628,
+                1.3947405280773744,
+                1.3989904974791694,
+                1.3989953546015998,
+                1.3925474059354397,
+                1.405794231209047,
+                1.3976738431665494,
+                1.3954151145456937,
+                1.3978015179692955,
+                1.36611540732083,
+                1.3994747565684693,
+                1.398113530484424,
+                1.3942804449050967,
+                1.37318553216734,
+                1.3990002117577571,
+                1.397176295696978,
+                1.3854389650185814,
+                1.4023434409247526,
+                1.3844552149904519,
+                1.398977545317572,
+                1.3948885914130345,
+                1.3921384661530571
+            ],
+            "gpu_summary": {
+                "memory_allocated": "1.46GB",
+                "memory_cached": "18.62GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569705984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1569641984,
+                            "memory_cached": 19987955712
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "efficientnet_b7": {
+        "shape": [
+            3,
+            224,
+            224
+        ],
+        "train_batch_size": 32,
+        "pred_batch_size": 256,
+        "prediction": {
+            "mean": 0.3659040609995524,
+            "min": 0.2446916103363037,
+            "max": 0.3831636905670166,
+            "avg_tflops": 3.741024329242616,
+            "sample_size": 30,
+            "durations": [
+                0.2446916103363037,
+                0.35918235778808594,
+                0.3798797130584717,
+                0.36593079566955566,
+                0.3655517101287842,
+                0.38067078590393066,
+                0.3629603385925293,
+                0.3788909912109375,
+                0.36159682273864746,
+                0.3767733573913574,
+                0.36397671699523926,
+                0.3653857707977295,
+                0.3805232048034668,
+                0.3632519245147705,
+                0.3801405429840088,
+                0.36777400970458984,
+                0.363964319229126,
+                0.36608171463012695,
+                0.37848973274230957,
+                0.3648064136505127,
+                0.3798348903656006,
+                0.3606088161468506,
+                0.3831636905670166,
+                0.3654661178588867,
+                0.36632466316223145,
+                0.3770458698272705,
+                0.36559176445007324,
+                0.36516857147216797,
+                0.37929606437683105,
+                0.36409854888916016
+            ],
+            "tflops": [
+                5.594208941151054,
+                3.811033489500093,
+                3.6033932513719247,
+                3.7407510123966445,
+                3.744630257332816,
+                3.5959050314763483,
+                3.7713652121774133,
+                3.612796361278291,
+                3.785586344483377,
+                3.6331018834385325,
+                3.7608339502273833,
+                3.7463308748434327,
+                3.597299657651598,
+                3.7683378999203065,
+                3.600920816345504,
+                3.7220030732120453,
+                3.760962056025788,
+                3.7392088696673436,
+                3.616626491952874,
+                3.752280505899697,
+                3.6038184724169016,
+                3.795958204778225,
+                3.5725096820691116,
+                3.745507250815904,
+                3.7367290057720877,
+                3.6304760346402687,
+                3.7442199947448125,
+                3.7485591622780987,
+                3.6089380379334495,
+                3.759575528505363
+            ],
+            "gpu_summary": {
+                "memory_allocated": "1.73GB",
+                "memory_cached": "12.87GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13820231680
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 1860589056,
+                            "memory_cached": 13822328832
+                        }
+                    ]
+                }
+            ]
+        },
+        "training": {
+            "mean": 0.18859700361887613,
+            "min": 0.1824195384979248,
+            "max": 0.298412561416626,
+            "avg_tflops": 0.9072625546150215,
+            "sample_size": 30,
+            "durations": [
+                0.298412561416626,
+                0.188629150390625,
+                0.18524408340454102,
+                0.18544268608093262,
+                0.18407011032104492,
+                0.18312740325927734,
+                0.18555092811584473,
+                0.1828625202178955,
+                0.18407154083251953,
+                0.18501830101013184,
+                0.18484163284301758,
+                0.18442177772521973,
+                0.18500638008117676,
+                0.1824195384979248,
+                0.18555283546447754,
+                0.18523812294006348,
+                0.18528437614440918,
+                0.18406224250793457,
+                0.18366575241088867,
+                0.1849074363708496,
+                0.18448567390441895,
+                0.18372845649719238,
+                0.18597197532653809,
+                0.18401694297790527,
+                0.18494367599487305,
+                0.18517589569091797,
+                0.1875743865966797,
+                0.18547630310058594,
+                0.18400263786315918,
+                0.18470478057861328
+            ],
+            "tflops": [
+                2.295119312848877,
+                3.630893907360989,
+                3.697243228051249,
+                3.6932836089587964,
+                3.7208237215126805,
+                3.7399778553857854,
+                3.691129114031713,
+                3.745395349948667,
+                3.720794805141336,
+                3.7017550651191766,
+                3.7052931332069865,
+                3.7137286135721963,
+                3.7019935885642656,
+                3.7544905471394516,
+                3.6910911719002897,
+                3.697362195392182,
+                3.696439209586675,
+                3.720982769589345,
+                3.7290154746530524,
+                3.7039745201506253,
+                3.712442372402527,
+                3.7277428111113866,
+                3.6827722655600907,
+                3.721898765518751,
+                3.7032487281316198,
+                3.6986046717828343,
+                3.651311062936583,
+                3.692614212461281,
+                3.722188121092847,
+                3.7080384750112025
+            ],
+            "gpu_summary": {
+                "memory_allocated": "2.35GB",
+                "memory_cached": "18.56GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2519866368,
+                            "memory_cached": 19289604096
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2523698688,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2524744704,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2524134400,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522819584,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2523483136,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2523130880,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522844160,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2521467904,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2520714240,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522303488,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522434560,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522434560,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522434560,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522434560,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522434560,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522434560,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522434560,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522434560,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522434560,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2522582016,
+                            "memory_cached": 19952304128
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "densenet169": {
+        "shape": [
+            3,
+            224,
+            224
+        ],
+        "train_batch_size": 100,
+        "pred_batch_size": 800,
+        "prediction": {
+            "mean": 0.5236567497253418,
+            "min": 0.014005184173583984,
+            "max": 0.5572619438171387,
+            "avg_tflops": 5.249419008619284,
+            "sample_size": 30,
+            "durations": [
+                0.014005184173583984,
+                0.49629998207092285,
+                0.5351171493530273,
+                0.550823450088501,
+                0.5405571460723877,
+                0.537402868270874,
+                0.551903486251831,
+                0.5409011840820312,
+                0.5366215705871582,
+                0.5543267726898193,
+                0.5407671928405762,
+                0.5279550552368164,
+                0.5516905784606934,
+                0.5363340377807617,
+                0.5572619438171387,
+                0.5388567447662354,
+                0.538933515548706,
+                0.5512995719909668,
+                0.5401289463043213,
+                0.5517857074737549,
+                0.5378749370574951,
+                0.5373013019561768,
+                0.5532858371734619,
+                0.5349595546722412,
+                0.549696683883667,
+                0.5304012298583984,
+                0.5508654117584229,
+                0.5382466316223145,
+                0.5493519306182861,
+                0.5347468852996826
+            ],
+            "tflops": [
+                196.27686876013047,
+                5.538774522073576,
+                5.1369942064527265,
+                4.990516826323089,
+                5.085297116083055,
+                5.115145188645402,
+                4.980750737178153,
+                5.082062633427536,
+                5.122592617721699,
+                4.958976963463713,
+                5.083321866403243,
+                5.206681267152509,
+                4.982672902752593,
+                5.1253388790581855,
+                4.932857386906056,
+                5.101344137749475,
+                5.100617454086633,
+                4.986206838638796,
+                5.089328603490932,
+                4.981813879495507,
+                5.110655854385278,
+                5.116112106916511,
+                4.96830663521609,
+                5.1385075226559715,
+                5.000746369031675,
+                5.182668405074916,
+                4.990136678259086,
+                5.1071266116698855,
+                5.003884655335911,
+                5.140551112250923
+            ],
+            "gpu_summary": {
+                "memory_allocated": "2.84GB",
+                "memory_cached": "19.65GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3045825536,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 3046435840,
+                            "memory_cached": 21099446272
+                        }
+                    ]
+                }
+            ]
+        },
+        "training": {
+            "mean": 0.24247961044311522,
+            "min": 0.23768830299377441,
+            "max": 0.3310563564300537,
+            "avg_tflops": 1.417074661956412,
+            "sample_size": 30,
+            "durations": [
+                0.3310563564300537,
+                0.24078059196472168,
+                0.24052858352661133,
+                0.24282550811767578,
+                0.23976540565490723,
+                0.24066543579101562,
+                0.2391185760498047,
+                0.23838114738464355,
+                0.23885631561279297,
+                0.2386493682861328,
+                0.2389991283416748,
+                0.23979711532592773,
+                0.23914122581481934,
+                0.23862171173095703,
+                0.23916029930114746,
+                0.2385880947113037,
+                0.23852324485778809,
+                0.2404646873474121,
+                0.2416672706604004,
+                0.23880696296691895,
+                0.23952341079711914,
+                0.23768830299377441,
+                0.23818016052246094,
+                0.23880505561828613,
+                0.23883914947509766,
+                0.23848176002502441,
+                0.24085521697998047,
+                0.24101710319519043,
+                0.2384347915649414,
+                0.23816633224487305
+            ],
+            "tflops": [
+                4.151999705374686,
+                5.708707180856975,
+                5.714688350991451,
+                5.660632216998721,
+                5.732878313305861,
+                5.711438744172643,
+                5.7483860813628445,
+                5.766168631372851,
+                5.754697717887684,
+                5.7596879649476564,
+                5.751259027166575,
+                5.732120223763922,
+                5.747841634902336,
+                5.76035551999469,
+                5.747383233657816,
+                5.761167153051906,
+                5.762733502889957,
+                5.71620685566243,
+                5.6877618992584305,
+                5.755887002969888,
+                5.738670344521214,
+                5.782976600224212,
+                5.771034377275001,
+                5.7559329755443684,
+                5.755111326517748,
+                5.763735952870215,
+                5.7069384321214445,
+                5.703105199330225,
+                5.764871331647173,
+                5.771369451777706
+            ],
+            "gpu_summary": {
+                "memory_allocated": "2.10GB",
+                "memory_cached": "19.77GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21223178240
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21223178240
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21223178240
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2253090304,
+                            "memory_cached": 21225275392
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "googlenet": {
+        "shape": [
+            3,
+            224,
+            224
+        ],
+        "train_batch_size": 300,
+        "pred_batch_size": 1024,
+        "prediction": {
+            "mean": 0.15528222719828289,
+            "min": 0.003999948501586914,
+            "max": 0.18401217460632324,
+            "avg_tflops": 9.966394922915642,
+            "sample_size": 30,
+            "durations": [
+                0.005000114440917969,
+                0.004999876022338867,
+                0.003999948501586914,
+                0.11295509338378906,
+                0.16614818572998047,
+                0.18311476707458496,
+                0.1670992374420166,
+                0.181809663772583,
+                0.16830921173095703,
+                0.18401217460632324,
+                0.16741418838500977,
+                0.18126869201660156,
+                0.16654706001281738,
+                0.1802670955657959,
+                0.1666240692138672,
+                0.1827101707458496,
+                0.16900014877319336,
+                0.16930270195007324,
+                0.18348312377929688,
+                0.16664648056030273,
+                0.1836709976196289,
+                0.17070746421813965,
+                0.16752386093139648,
+                0.1833970546722412,
+                0.16600608825683594,
+                0.1815626621246338,
+                0.16841483116149902,
+                0.1829981803894043,
+                0.1645336151123047,
+                0.1789400577545166
+            ],
+            "tflops": [
+                309.5137159468446,
+                309.5284750768788,
+                386.9059814530146,
+                13.70105547617658,
+                9.314600661864127,
+                8.451552135812408,
+                9.261586255323387,
+                8.512220795390853,
+                9.195004746631762,
+                8.410334827458854,
+                9.244162730155864,
+                8.537624360561184,
+                9.292292524700809,
+                8.58506093921693,
+                9.28799787491447,
+                8.470267388238183,
+                9.157412061482631,
+                9.141047265887007,
+                8.434584984663436,
+                9.286748784400421,
+                8.425957395696138,
+                9.065825023271296,
+                9.238110870676309,
+                8.438543375376485,
+                9.322573750268894,
+                8.523800998828968,
+                9.189238204822633,
+                8.456936552455508,
+                9.40600496568231,
+                8.648728631188435
+            ],
+            "gpu_summary": {
+                "memory_allocated": "2.65GB",
+                "memory_cached": "19.98GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2842178048,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2841489920,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                }
+            ]
+        },
+        "training": {
+            "mean": 0.26129544576009117,
+            "min": 0.25902390480041504,
+            "max": 0.27348923683166504,
+            "avg_tflops": 1.7351990513309197,
+            "sample_size": 30,
+            "durations": [
+                0.27348923683166504,
+                0.2605571746826172,
+                0.262096643447876,
+                0.26175665855407715,
+                0.26001715660095215,
+                0.26015424728393555,
+                0.26225996017456055,
+                0.2603626251220703,
+                0.2604706287384033,
+                0.2605247497558594,
+                0.26272010803222656,
+                0.26215577125549316,
+                0.2605862617492676,
+                0.2594144344329834,
+                0.2618744373321533,
+                0.25902390480041504,
+                0.26051783561706543,
+                0.26014232635498047,
+                0.2616543769836426,
+                0.26052212715148926,
+                0.26024484634399414,
+                0.2620730400085449,
+                0.26218676567077637,
+                0.2600224018096924,
+                0.2595212459564209,
+                0.2606534957885742,
+                0.2606217861175537,
+                0.2615211009979248,
+                0.2604682445526123,
+                0.2612497806549072
+            ],
+            "tflops": [
+                6.6315034322331075,
+                6.960640461876315,
+                6.919755968140376,
+                6.928743752867373,
+                6.9750967068353775,
+                6.9714211152146435,
+                6.915446839543619,
+                6.965841629065145,
+                6.9629532570042105,
+                6.961506783626456,
+                6.903334603172168,
+                6.918195254837432,
+                6.95986350375241,
+                6.991302610790277,
+                6.925627530523836,
+                7.001843378608097,
+                6.961691541894553,
+                6.971740578090965,
+                6.931452221956833,
+                6.961576863194411,
+                6.968994153800482,
+                6.9203791914989266,
+                6.9173774202064955,
+                6.974956004196081,
+                6.98842519056243,
+                6.958068247813238,
+                6.958914831126028,
+                6.934984618095468,
+                6.963016992121893,
+                6.9421869300005214
+            ],
+            "gpu_summary": {
+                "memory_allocated": "2.21GB",
+                "memory_cached": "19.98GB"
+            },
+            "gpu_states": [
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2374138880,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375066624,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                },
+                {
+                    "gpu_count": 1,
+                    "gpu_usage": [
+                        {
+                            "index": 0,
+                            "memory_allocated": 2375345664,
+                            "memory_cached": 21449670656
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

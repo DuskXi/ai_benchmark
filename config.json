@@ -1,0 +1,77 @@
+{
+    "models": [
+        {
+            "model": "vgg19",
+            "prediction": true,
+            "training": true,
+            "pred_batch_size": 480,
+            "train_batch_size": 128,
+            "input_shape": [
+                3,
+                224,
+                224
+            ]
+        },
+        {
+            "model": "resnet50",
+            "prediction": true,
+            "training": true,
+            "pred_batch_size": 1300,
+            "train_batch_size": 200,
+            "input_shape": [
+                3,
+                224,
+                224
+            ]
+        },
+        {
+            "model": "mobilenet_v2",
+            "prediction": true,
+            "training": true,
+            "pred_batch_size": 900,
+            "train_batch_size": 220,
+            "input_shape": [
+                3,
+                224,
+                224
+            ]
+        },
+        {
+            "model": "efficientnet_b7",
+            "prediction": true,
+            "training": true,
+            "pred_batch_size": 256,
+            "train_batch_size": 32,
+            "input_shape": [
+                3,
+                224,
+                224
+            ]
+        },
+        {
+            "model": "densenet169",
+            "prediction": true,
+            "training": true,
+            "pred_batch_size": 800,
+            "train_batch_size": 100,
+            "input_shape": [
+                3,
+                224,
+                224
+            ]
+        },
+        {
+            "model": "googlenet",
+            "prediction": true,
+            "training": true,
+            "pred_batch_size": 1024,
+            "train_batch_size": 300,
+            "input_shape": [
+                3,
+                224,
+                224
+            ]
+        }
+    ],
+    "sample_size": 30
+}

@@ -1,0 +1,4 @@
+pynvml
+torch
+torchvision
+thop
