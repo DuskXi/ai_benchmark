@@ -1,6 +1,7 @@
 import gc
 import json
 import os
+# os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 from thop import profile
 import numpy as np
 import torch
@@ -14,7 +15,6 @@ from config import Config, ModelConfig
 from timer import Timer
 import tqdm
 import pynvml
-
 
 def warn(*args, **kwargs):
     pass
@@ -31,7 +31,7 @@ def load_config(config_path="config.json"):
 
 
 def save_results(results, path, mix_precision=False, half=False, bf16=False):
-    name = f"results-0.json"
+    name = f"results-0{'-half' if half else ''}{'-mix_precision' if mix_precision else ''}{'-bf16' if bf16 else ''}.json"
     i = 0
     while name in os.listdir(path):
         i += 1
@@ -112,7 +112,7 @@ def get_summary_gpu_usage(gpu_infos):
     }
 
 
-def plot_benchmark_results(benchmark_results, keys):
+def plot_benchmark_results(benchmark_results, keys, title=None, save=True):
     # Extract system information
     system_information = benchmark_results["system_information"]
     device = system_information["devices"][0]
@@ -121,6 +121,7 @@ def plot_benchmark_results(benchmark_results, keys):
     labels = []
     prediction_tflops = []
     training_tflops = []
+
 
     for key in keys:
         bc_result = benchmark_results[key]
@@ -148,7 +149,7 @@ def plot_benchmark_results(benchmark_results, keys):
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_xlabel('TFlops')
-    ax.set_title('Benchmark Results')
+    ax.set_title('Benchmark Results' if title is None else title)
     ax.set_yticks(y)
     ax.set_yticklabels(labels)
     ax.legend()
@@ -157,12 +158,14 @@ def plot_benchmark_results(benchmark_results, keys):
     ax.bar_label(rects2, padding=3)
 
     fig.tight_layout()
+    if save and title is not None:
+        plt.savefig(f"{title}-TFlops.png")
     plt.show()
 
-    plot_throughput(benchmark_results, keys)
+    plot_throughput(benchmark_results, keys, title, save)
 
 
-def plot_throughput(benchmark_results, keys):
+def plot_throughput(benchmark_results, keys, title=None, save=True):
     # Lists to store data for plotting
     labels = []
     prediction_throughput = []
@@ -198,7 +201,7 @@ def plot_throughput(benchmark_results, keys):
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_xlabel('Items per second')
-    ax.set_title('Throughput Benchmark Results')
+    ax.set_title('Throughput Benchmark Results' if title is None else title)
     ax.set_yticks(y)
     ax.set_yticklabels(labels)
     ax.legend()
@@ -207,6 +210,8 @@ def plot_throughput(benchmark_results, keys):
     ax.bar_label(rects2, padding=3)
 
     fig.tight_layout()
+    if save and title is not None:
+        plt.savefig(f"{title}-Throughput.png")
     plt.show()
 
 
@@ -390,7 +395,7 @@ def benchmark(config: Config, save_path="results", mix_precision=False, half=Fal
     bar_model.close()
     save_results(benchmark_results, save_path, mix_precision, half)
     print(summary_text(benchmark_results, [model_config.model for model, model_config in initialized_models]))
-    plot_benchmark_results(benchmark_results, [model_config.model for model, model_config in initialized_models])
+    plot_benchmark_results(benchmark_results, [model_config.model for model, model_config in initialized_models], save=False)
 
 
 def parse_args():

@@ -1,4 +1,10 @@
 pynvml
-torch
+numpy
+matplotlib
+opencv-python
+torch==2.0.1
 torchvision
 thop
+tqdm
+pynvml
+loguru
